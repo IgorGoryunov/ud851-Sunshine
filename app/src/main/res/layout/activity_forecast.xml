@@ -31,12 +31,14 @@
     </ScrollView>
 
     <TextView
+        android:id="@+id/error_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/error_message"
         android:visibility="invisible"/>
 
     <ProgressBar
+        android:id="@+id/progress_bar"
         android:layout_width="@dimen/progressbar_width"
         android:layout_height="@dimen/progressbar_height"
         android:layout_gravity="center"
